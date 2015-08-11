@@ -1,0 +1,20 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="464.3px" height="174.4px" viewBox="0 0 464.3 174.4" style="enable-background:new 0 0 464.3 174.4;" xml:space="preserve">
+
+	<defs>
+		<style type="text/css">@import url('../../stylesheets/css/sspace.css')</style>
+	</defs>
+
+	<style type="text/css">
+		svg{font-size: 62.5%;}
+		.st25{fill:#ffffff;}
+		.st26{font-family:'Cabin'; font-weight: 700}
+		.st27{font-size:7.2rem;}
+		.st28{font-family:'Cabin'; font-weight: 400}
+	</style>
+
+	<g id="hd">
+		<text transform="matrix(1 0 0 1 2.655295e-005 61.1993)" class="st25 st26 st27">14 : 06</text>
+		<text transform="matrix(1 0 0 1 2.655295e-005 156.4169)" class="st25 st28 st27">01 / 06 / 2015</text>
+	</g>
+
+</svg>

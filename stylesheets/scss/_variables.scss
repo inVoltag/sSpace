@@ -1,0 +1,198 @@
+/*
+Preprocessed stylesheet SCSS
+VARIABLES
+sSpace 2015
+
+@inVolt
+*/
+
+
+/* Couleurs */
+$purpleRain: #333366;
+$bluePrint: #66CCCC;
+$orangeAcid: #EE524B;
+$postIt: #FED073;
+
+@mixin bgPRtoBP($values) {
+	background: linear-gradient($values);
+		background: -moz-linear-gradient($values);
+			background: -webkit-linear-gradient($values)
+}
+
+
+/* Flexbox */
+@mixin flexBox {
+	display: flex;
+		display: -webkit-flex;
+}
+
+@mixin flexColumn {
+	flex-flow: column wrap;
+		-webkit-flex-flow: column wrap;
+}
+
+@mixin flexRow {
+	flex-flow: row wrap;
+		-webkit-flex-flow: row wrap;
+}
+
+@mixin flexNoWrap {
+	flex-flow: column nowrap;
+		-webkit-flex-flow: column nowrap;
+}
+
+@mixin centerRep {
+	justify-content: center;
+		-webkit-justify-content: center;
+}
+
+@mixin endRep {
+	justify-content: flex-end;
+		-webkit-justify-content: flex-end;
+}
+
+@mixin equalRep {
+	justify-content: space-between;
+		-webkit-justify-content: space-between;
+}
+
+@mixin smartRep {
+	justify-content: space-around;
+		-webkit-justify-content: space-around;
+}
+
+@mixin flexo($grow, $shrink, $basis) {
+	flex: $grow $shrink $basis;
+		-webkit-flex: $grow $shrink $basis;
+}
+
+
+/* Icons */
+$icnFlecheBas: "\e600";
+$icnFlecheHaut: "\e601";
+$icnFlecheGauche: "\e602";
+$icnFlecheDroite: "\e603";
+$icnArchiver: "\e604";
+$icnAjourner: "\e605";
+$icnSpam: "\e606";
+$icnAjouter: "\e607";
+$icnRetirer: "\e608";
+$icnFermer: "\e609";
+$icnAide: "\e60a";
+$icnMenu: "\e60b";
+$icnTelecharger: "\e60c";
+$icnApropos: "\e60d";
+$icnProfil: "\e60e";
+$icnMicro: "\e60f";
+$icnParametres: "\e610";
+$icnPersonnaliser: "\e611";
+$icnQuitter: "\e612";
+$icnBoite: "\e613";
+$icnVrBox: "\e614";
+$icnVrSchedule: "\e615";
+$icnVrTask: "\e616";
+$icnPlus: "\e617";
+
+@mixin icons($name, $icn, $colorName, $color, $sizeName, $fontSize) {
+	i.icn {
+		@include flexBox;
+	}
+
+	i.icn::before {
+		@include ssicons;
+		margin: auto;
+	}
+
+	i.icn#{$sizeName}::before {
+		font-size: $fontSize;
+	}
+
+	i.icn#{$colorName}::before {
+		color: $color;
+	}
+
+	i.icn#{$name}::before {
+		content: $icn;
+	}
+}
+
+
+/* Animation */
+@mixin transition($time, $function) {
+	transition: $time all $function;
+		-moz-transition: $time all $function;
+			-webkit-transition: $time all $function;
+} 
+
+@mixin keyframes($name) {
+	@-keyframes #{$name} {
+		@content;
+	}
+		@-webkit-keyframes #{$name} {
+			@content;
+		}
+			@-moz-keyframes #{$name} {
+				@content;
+			}
+}
+
+@mixin animation($values) {
+	animation: $values;
+		-webkit-animation: $values;
+			-moz-animation: $values;
+}
+
+/* Origin */
+@mixin origin($xPos, $yPos) {
+	transform-origin: $xPos $yPos;
+		-weblit-transform-origin: $xPos $yPos;
+			-moz-transform-origin: $xPos $yPos;
+}
+
+/* Transforms */
+@mixin transforms($xValue1, $yValue1, $xValue2, $yValue2, $angle, $skew) {
+	transform: 
+		translateX($xValue1 + rem)
+		translateY($yValue1 + rem)
+		scaleX($xValue2)
+		scaleY($yValue2)
+		rotate($angle + deg) 
+		skew($skew + deg);
+
+	-webkit-transform: 
+		translateX($xValue1 + rem)
+		translateY($yValue1 + rem)
+		scaleX($xValue2)
+		scaleY($yValue2)
+		rotate($angle + deg) 
+		skew($skew + deg);
+
+	-moz-transform: 
+		translateX($xValue1 + rem)
+		translateY($yValue1 + rem)
+		scaleX($xValue2)
+		scaleY($yValue2)
+		rotate($angle + deg) 
+		skew($skew + deg);
+}
+
+/* Shadow */
+@mixin shadow($xPos, $yPos, $blur, $spread, $color) {
+	box-shadow: $xPos $yPos $blur $spread $color;
+		-webkit-box-shadow: $xPos $yPos $blur $spread $color;
+			-moz-box-shadow: $xPos $yPos $blur $spread $color;
+}
+
+/* Grid */
+$grid: 96.0rem;
+$column: 5.8rem;
+$gutter: 2.4rem;
+
+@function itemsWidth($n) {
+	@return $n * $column + ($n - 1) * $gutter;
+}
+
+/* Cursor */
+@mixin cursor($name) {
+	cursor: url(../../images/uikit/ss_cursor_#{$name}.svg), #{$name};
+}

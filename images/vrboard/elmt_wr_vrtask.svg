@@ -1,0 +1,31 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1162.2px" height="1332.5px" viewBox="0 0 1162.2 1332.5" style="enable-background:new 0 0 1162.2 1332.5;" xml:space="preserve">
+
+	<defs>
+		<style type="text/css">@import url('../../stylesheets/css/sspace.css')</style>
+	</defs>
+
+	<style type="text/css">
+		svg{font-size:62.5%;}
+		.st3{fill:#FFFFFF;}
+		.st23{fill:#363664;}
+		.st24{font-family:'Cabin'; font-weight: 700;}
+		.st25{font-size:4.8rem;}
+		.st26{font-family:'Cabin'; font-weight: 600;}
+		.st27{font-size:3.6rem;}
+		.st28{fill:none;stroke:#FFFFFF;stroke-width:4;stroke-miterlimit:10;}
+		.st29{fill:#A3D5D5;stroke:#A3D5D5;stroke-width:4;stroke-miterlimit:10;}
+		.st30{fill:none;stroke:#FFFFFF;stroke-width:6.5306;stroke-miterlimit:10;}
+	</style>
+
+	<g id="wrap_43_">
+		<path class="st3" d="M1146.2,16.2v1300.3H16V16.2H1146.2 M1162.2,0.2H0v1332.3h1162.2V0.2L1162.2,0.2z"/>
+		<rect x="0" y="1190.8" class="st3" width="1162.2" height="141.7"/>
+		<text transform="matrix(1 0 0 1 60 1278.7842)" class="st23 st24 st25">vrTask</text>
+		<path class="st3" d="M1158.2,4.2V138H4V4.2H1158.2 M1162.2,0.2H0V142h1162.2V0.2L1162.2,0.2z"/>
+		<text transform="matrix(1 0 0 1 60 89.233)" class="st3 st26 st27">Aujourd’hui</text>
+		<path class="st3" d="M307.8,146v1040.8H4V146H307.8 M311.8,142H0v1048.8h311.8V142L311.8,142z"/>
+		<path class="st3" d="M307.8,146v1040.8H4V146H307.8 M311.8,142H0v1048.8h311.8V142L311.8,142z"/>
+		<path class="st3" d="M1155.6,148.6v1035.6H318.4V148.6H1155.6 M1162.2,142H311.8v1048.8h850.4V142L1162.2,142z"/>
+	</g>
+
+</svg>

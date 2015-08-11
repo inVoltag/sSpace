@@ -1,0 +1,57 @@
+/*
+Preprocessed stylesheet SCSS
+RESET
+sSpace 2015
+
+@inVolt
+*/
+
+
+.reset {
+	margin: 0; padding: 0;
+}
+
+address, blockquote, div, dl, form, h1, h2, h3, h4, h5, h6, ol, p, pre, table, ul,
+dd, dt, li, tbody, td, tfoot, th, thead, tr, button, del, ins, map, object,
+a, abbr, acronym, b, bdo, big, br, cite, code, dfn, em, i, img, kbd, q, samp, small, span,
+strong, sub, sup, tt, var, legend, fieldset, figure {
+	@extend .reset
+}
+
+ html, body {
+ 	@extend .reset;
+	font-size: 62.5%;
+	width: 100%; height: 100%;
+	@include cursor(auto);
+}
+
+body {
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+
+body.full {
+	overflow-y: scroll;
+	overflow-x: visible;
+}
+
+img, fieldset {
+	border: 0;
+}
+
+/* set html5 elements to block */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { 
+	display: block;
+}
+
+/* set img max-width */
+img {
+	max-width: 100%; height: auto;
+}
+
+/* ie 8 img max-width */
+@media \0screen {
+	img { 
+		width: auto;
+	}
+}

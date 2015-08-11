@@ -1,0 +1,840 @@
+/*
+Preprocessed stylesheet SCSS
+SSPACE
+sSpace 2015
+
+@inVolt
+*/
+
+
+/*
+IMPORT
+--
+*/
+
+@import "_variables.scss";
+@import "_fonts.scss";
+@import "_reset.scss";
+
+
+/*
+PAGE
+--
+*/
+* #pagewrap {
+	width: 100%; height: 100%;
+
+	&.fractal {
+		background: $purpleRain url(../../images/idkit/entry_bg.svg) 50% 50% no-repeat;
+	}
+
+	&.load {
+		background: $purpleRain url(../../images/idkit/load_bg.svg) 50% 50% no-repeat fixed;
+	}
+}
+
+* .containerR {
+	width: $grid;
+	margin: 0 auto;
+	@include flexBox;
+	@include flexRow;
+	@include equalRep;
+}
+
+* .containerC {
+	width: $grid;
+	margin: 0 auto;
+	@include flexBox;
+	@include flexColumn;
+}
+
+.full {
+	height: auto;
+}
+
+/*
+CANVAS
+--
+*/
+* .hide {
+	opacity: 0 !important;
+}
+
+* #vrMenu, * #vrBoard, * #wip, * #fsPrompt, * #content {
+	@include transition(1s, linear);
+
+	&.fit {
+		position: absolute;
+		top: 0; left: 0;
+		width: 100%; height: 100%;
+		z-index: 2;
+	}
+}
+
+
+/*
+HEADING
+--
+*/
+* h1 {
+	@include CabinBold;
+	font-size: 4.8rem;
+	line-height: 1.3;
+	margin: 0 0 1.5rem 0;
+}
+
+* h2 {
+	@extend h1;
+	font-size: 3.6rem;
+}
+
+* h3 {
+	@extend h1;
+	font-size: 3.2rem;
+}
+
+* h4 {
+	@extend h1;
+	font-size: 2.4rem;
+}
+
+* h5 {
+	@extend h1;
+	font-size: 1.8rem;
+}
+
+* h6 {
+	@extend h1;
+	font-size: 1.6rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	line-height: 1.3;
+}
+
+* p {
+	@include CabinRegular;
+	font-size: 1.8rem;
+	line-height: 1.6;
+}
+
+* p + p {
+	margin: 1.5rem 0 0;
+}
+
+p.small {
+	font-size: 1.5rem;
+}
+
+strong {
+	font-size: 700;
+}
+
+ul {
+	padding: 0;
+	list-style: none;
+}
+
+/*
+BUTTONS
+--
+*/
+* button.btn, * a.btn {
+	@include flexBox;
+	border: #fff 0.2rem solid;
+	outline: none;
+	background: $purpleRain;
+	@include cursor(pointer);
+	text-decoration: none;
+	@include origin(50%, 50%);
+	@include transition(.3s, ease-out);
+
+		&:hover {
+			@include transforms(0, 0, 1.15, 1.15, 0, 0);
+			@include shadow(0, 0, .75rem, .5rem, rgba(0, 0, 0, .15));
+		}
+
+		p {
+			width: 100%;
+			font-weight: 500;
+			padding: 1.4rem 0;
+			color: #fff;
+			text-align: center;
+			letter-spacing: 0.1rem;
+		}
+
+		i.icn {
+			width: 100%; height: 100%;
+		}
+}
+
+
+/*
+ICONS
+--
+*/
+@include icons("Menu", $icnMenu, "White", #fff, "Medium", 4.2rem);
+@include icons("Fermer", $icnFermer, "White", #fff, "Medium", 4.2rem);
+@include icons("Retour", $icnFlecheGauche, "White", #fff, "Medium", 4.2rem);
+@include icons("Haut", $icnFlecheHaut, "White", #fff, "Medium", 4.2rem);
+@include icons("Haut", $icnFlecheHaut, "PR", $purpleRain, "Medium", 4.2rem);
+@include icons("FlecheHaut", $icnFlecheHaut, "PR", $purpleRain, "Small", 3.2rem);
+
+
+/*
+LINKS
+--
+*/
+* a.link {
+	color: $bluePrint;
+	border-bottom: $bluePrint solid 0.1rem;
+	padding: 0 0 0.2rem 0;
+	text-decoration: none;
+	@include transition(.3s, ease-out);
+
+	&:hover {
+		color: $orangeAcid;
+		border-color: $orangeAcid;
+	}
+}
+
+* a {
+	@include cursor(pointer);
+	text-decoration: none;
+}
+
+a.active {
+	border-color: $orangeAcid;
+	pointer-events: none;
+}
+
+
+/*
+HEADER
+--
+*/
+* header {
+	width: 100%; height: 6.0rem * 3;
+	z-index: 2;
+
+	&.absolute {
+		position: absolute;
+		top: 0; left: 0;
+		z-index: 9999;
+	}
+
+	.above {
+		width: 100%; height: 12.0rem;
+		position: relative;
+	}
+
+	.below {
+		width: 100%; height: 6.0rem;
+		position: relative;
+	}
+
+	.wrapElmt {
+		width: 21.0rem; height: 100%;
+		margin: 0 auto;
+		position: relative;
+		z-index: 1;
+	}
+
+	.headband {
+		width: 100%; height: 50%;
+		position: absolute;
+		top: 0; right: 0;
+		z-index: 0;
+		background: #fff;
+	}
+
+	.btn {
+		width: 6.0rem; height: 6.0rem;
+		position: absolute;
+		top: 0; right: -6.0rem;
+
+		i.icn {
+			width: 100%; height: 100%;
+		}
+	}
+}
+
+
+/*
+MENU / navigation
+--
+*/
+* #navMenu {
+	width: 100%; height: 100%;
+	position: fixed;
+	top: 0; left: 0;
+	z-index: 999;
+	background: rgba($purpleRain, .95);
+	@include flexBox;
+	@include origin(50%, 50%);
+	@include transforms(0, 0, 0, 0, 0, 0);
+	@include transition(.3s, ease-out);
+	overflow: hidden;
+
+	&.evolve {
+		@include transforms(0, 0, 1, 1, 0, 0);
+	}
+
+	.close {
+		position: absolute;
+		top: 2.0rem; right: 2.0rem;
+
+		.btn {
+			width: 6.0rem; height: 6.0rem;
+
+			i.icn {
+				width: 100%; height: 100%;
+			}
+		}
+	}
+
+	nav {
+		margin: auto;
+
+		a + a {
+			margin: 2.0rem 0 0;
+		}
+
+		p {
+			font-size: 3.6rem;
+			padding: 1.0rem 0;
+		}
+	}
+	
+	footer {
+		width: 100%; height: auto;
+		position: absolute;
+		bottom: 2.0rem; left: 0;
+
+		p {
+			color: #fff;
+			text-align: center;
+		}
+	}
+}
+
+
+/*
+ENTRY / template work
+--
+*/
+@for $i from 1 through 12 {
+	* .sys#{$i} {
+		width: itemsWidth($i);
+		height: auto;
+	}
+}
+
+* #entryArea {
+	height: calc(100% - 18.0rem - 8.0rem);
+
+	.sys6 {
+		@include flexBox;
+	}
+
+	.welcome {
+		margin: auto;
+
+		h2, p {
+			color: #fff;
+		}
+	}
+
+	a.entryLink {
+		width: 100%; height: 8.0rem;
+		background: transparent;
+		text-decoration: none;
+		text-transform: uppercase;
+		text-align: center;
+		color: #fff;
+		position: relative;
+		margin: auto;
+		@include transition(.3s, ease-out);
+		@include origin(50%, 50%);
+
+		&:hover {
+			@include transforms(0, 0, 1.15, 1.15, 0, 0);
+
+			.fieldAbv path, .fieldBlw path {
+				fill: rgba($bluePrint, .15);
+			}
+		}
+
+		h4 {
+			margin: 0; padding: 2.5rem 0;
+		}
+
+		.shield {
+			position: absolute;
+			top: -19.0rem; left: 0;
+			width: 100%; height: auto;
+		}
+	}
+
+	svg {
+		width: 100%;
+
+		.fieldAbv, .fieldBlw {
+			@include origin(23.4rem, 23.4rem);
+		}
+		.fieldAbv {
+			@include animation(ranScale 5s infinite alternate ease-out);
+		}
+		.fieldBlw {
+			@include animation(ranScaleAlt 5s infinite alternate-reverse ease-out);
+		}
+		
+		#eclats {
+			@include origin(23.4rem, 23.4rem);
+
+			path {
+				@include animation(dashMov 10s infinite alternate ease-out);
+			}
+		}
+	}
+}
+
+* #troubleShArea {
+	@extend #entryArea;
+	
+	a.btn {
+		margin: 3.0rem 0 0;
+		p {
+			text-transform: uppercase;
+		}
+	}
+
+	svg {
+		margin: auto;
+	}
+
+}
+
+@include keyframes(dashMov) {
+	0% {
+		stroke-dasharray: 25;
+		stroke-dashoffset: 0;
+	}
+
+	100% {
+		stroke-dasharray: 25;
+		stroke-dashoffset: 300;
+	}
+}
+
+@include keyframes(ranScale) {
+	0% {
+		transform-style: preserve-3d;
+			-webkit-transform-style: preserve-3d;
+				-moz-transform-style: preserve-3d;
+		transform: rotate3d(234, 234, 100, 0);
+			-webkit-transform: rotate3d(234, 234, 100, 0);
+				-moz-transform: rotate3d(234, 234, 100, 0);
+	}
+
+	100% {
+		transform: rotate3d(234, 234, 100, 360deg);
+			-webkit-transform: rotate3d(234, 234, 100, 360deg);
+				-moz-transform: rotate3d(234, 234, 100, 360deg);
+	}
+}
+
+@include keyframes(ranScaleAlt) {
+	0% {
+		transform-style: preserve-3d;
+			-webkit-transform-style: preserve-3d;
+				-moz-transform-style: preserve-3d;
+		transform: rotate3d(234, -234, 100, 0);
+			-webkit-transform: rotate3d(234, -234, 100, 0);
+				-moz-transform: rotate3d(234, -234, 100, 0);
+	}
+
+	100% {
+		transform: rotate3d(234, -234, 100, 360deg);
+			-webkit-transform: rotate3d(234, -234, 100, 360deg);
+				-moz-transform: rotate3d(234, -234, 100, 360deg);
+	}
+}
+
+
+/*
+INFORMATION AREA
+--
+*/
+* #infoArea {
+	position: absolute;
+	bottom: 2.0rem; right: 2.0rem;
+	z-index: 99;
+	@include flexBox;
+	@include flexRow;
+	@include endRep;
+
+	.controlsArea, .safetyArea {
+		width: 29.0rem; height: 6.0rem;
+		background: #fff;
+		position: relative;
+		margin: 0 2.0rem 0 0;
+
+		&:hover .hdnDrawer {
+			@include transforms(0, 0, 1, 1, 0, 0);
+		}
+
+		&:hover i.icn {
+			@include transforms(0, -1.0, 1, 1, 0, 0);
+		}
+
+		i.icn {
+			width: 6.0rem; height: 6.0rem;
+			float: right;
+			@include transition(.5s, ease-in);
+		}
+
+		.hdnDrawer {
+			position: absolute;
+			left: 0;
+			width: calc(100% - 0.8rem); height: auto;
+			border: #fff solid 0.4rem;
+			overflow: hidden;
+			background: $purpleRain;
+			@include origin(50%, 100%);
+			@include transforms(0, 0, 1, 0, 0, 0);
+			@include transition(.3s, ease-out);
+
+			p {
+				margin: 0; padding: 2.0rem;
+				color: #fff;
+			}
+
+			ul.controls {
+				width: 87%; height: 100%;
+				padding: 2.0rem;
+				@include flexBox;
+				@include flexColumn;
+
+				li.control {
+					width: 100%;
+					@include flexBox;
+					@include flexRow;
+
+					.key, .caption {
+						padding: 1.5rem;
+						@include CabinSemiBold;
+						font-size: 1.6rem;
+						color: #fff;
+						border: #fff solid 0.2rem;
+					}
+
+					.key {
+						background: $orangeAcid;
+						text-transform: uppercase;
+					}
+
+					.caption {
+						margin: 0 0 0 -0.2rem;
+						@include flexo(1, 1, 10.0rem);
+					}
+				}
+
+				li + li {
+					margin: 1.05rem 0 0;
+				}
+			}
+		}
+
+		.hdn1 {
+			top: -29.0rem;
+		}
+		.hdn2 {
+			top: -43.2rem;
+		}
+	}
+
+	h6 {
+		color: $purpleRain;
+		margin: 0; padding: 2.0rem 1.4rem;
+	}
+
+	.vrArea {
+		height: 6.0rem;
+		background: $bluePrint;
+	}
+}
+
+
+/*
+JY AREA
+--
+*/
+
+* #JYArea {
+	width: $grid; height: auto;
+	position: absolute;
+	top: 50%; left: 50%;
+	transform: translateX(-50%) translateY(-45%);
+	z-index: 98;
+
+	p {
+		color: #fff;
+	}
+
+	.notice {
+		height: auto;
+		border: #fff solid 0.4rem;
+		background: $purpleRain;
+
+		.intro {
+			width: 100%; 
+		}
+		
+		.content {
+			padding: 2.0rem;
+		}
+
+		.xbox {
+			width: 100%;
+
+			.content {
+				text-align: center;
+			}
+
+			img {
+				width: 100%;
+				margin: 0 auto;
+			}
+		}
+	}
+
+	.title {
+		background: #fff;
+		width: 100%;
+
+		p {
+			font-weight: 700;
+			color: $purpleRain;
+			padding: 2.0rem 0 2.0rem 2.0rem;
+		}
+	}
+
+	.buttons {
+		@include flexBox;
+		@include flexRow;
+		
+		width: 100%;
+
+		a, button {
+			@include flexo(1, 1, 5.0rem);
+			border: none;
+
+			p {
+				text-transform: uppercase;
+			}
+		}
+
+		a {
+			background: $orangeAcid;
+		}
+
+		button {
+			background: $bluePrint;
+		}
+	}
+
+	.hardware {
+		@extend .notice;
+		margin: 1.5rem 0 0;
+
+		svg {
+			width: 100%;
+
+			path {
+				fill: #fff;
+			}
+		}
+	}
+}
+
+
+/*
+NOTICE
+--
+*/
+
+* #content {
+	@include flexBox;
+
+	#fsPrompt {
+		margin: auto;
+		background: rgba($orangeAcid, .75);
+		border: #fff solid 0.8rem;
+
+		.up {
+			margin: 2.5rem auto 5rem auto;
+			border: #fff solid 0.2rem;
+
+			i {
+				padding: 0.8rem;
+			}
+		}
+
+		ul {
+			width: itemsWidth(6);
+			margin: 0 auto; padding: 0 0 5.0rem 0;
+			list-style-image: none;
+			list-style: none;
+
+			li {
+
+				& + li {
+					margin: 2.0rem 0 0;
+				}
+
+				p {
+					font-weight: 600;
+					color: #fff;
+				}
+
+				&.note p {
+					font-size: 1.5rem;
+					opacity: .75;
+				}
+			}
+		}
+	}
+}
+
+
+/*
+ARTICLES
+--
+*/
+
+* #articles {
+	width: 100%; height: auto;
+	background: transparent;
+
+	section {
+		width: 100%; height: auto;
+
+		.cover {
+			width: inherit; height: auto;
+			padding: 5.0rem 0;
+			background: transparent;
+
+			h1 {
+				padding: 2.0rem 0;
+			}
+
+			h1, h2 {
+				color: #fff;
+				text-align: center;
+			}
+		}
+
+		article {
+			width: 100%; height: auto;
+			padding: 7.5rem 0;
+			background: #fff;
+
+			.content {
+				width: $grid;
+				margin: 0 auto;
+			}
+
+			h3, h4 {
+				color: $purpleRain;
+
+				span.smaller {
+					font-size: 2.4rem;
+					font-weight: 500;
+				}
+			}
+
+			p {
+				color: $purpleRain;
+			} 
+
+			ul {
+				padding: 2.0rem;
+				margin: 3.0rem 0;
+				border: $purpleRain solid 0.2rem;
+
+				li + li {
+					margin: 1.0rem 0 0;
+				}
+			}
+
+			button {
+				background: transparent;
+				width: 100%; height: 6.0rem;
+				border-color: $purpleRain;
+			}
+
+			.features {
+				margin: 10.0rem 0;
+
+				img {
+					margin: 0 0 7.5rem;
+				}
+			}
+
+			.sign {
+				width: 26.0rem;
+				margin: 10.0rem auto 0 auto;
+
+				img {
+					width: 100%;
+				}
+			}
+
+			video {
+				width: 100%;
+			}
+
+		}
+	
+	}
+}
+
+
+/*
+404
+--
+*/
+
+* #content {
+	&.notFound {
+		@include flexBox;
+		z-index: 0; 
+	}
+
+	p {
+		margin: auto;
+		color: #fff;
+		font-size: 2.4rem;
+	}
+
+	span {
+		@include CabinBold;
+		font-size: 30.4rem;
+		color: #fff;
+		position: absolute;
+		display: block;
+
+		&.number1 {
+			top: 22.0rem; left: 154.0rem;
+		}
+
+		&.number2 {
+			bottom: 52.0rem; right: 111.0rem;
+		}
+
+		&.number3 {
+			top: 54.0rem; left: 31.0rem;
+		}
+	}
+}

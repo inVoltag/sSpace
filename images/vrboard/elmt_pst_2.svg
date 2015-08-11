@@ -1,0 +1,27 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="680.3px" height="481.9px" viewBox="0 0 680.3 481.9" style="enable-background:new 0 0 680.3 481.9;" xml:space="preserve">
+
+	<defs>
+		<style type="text/css">@import url('../../stylesheets/css/sspace.css')</style>
+	</defs>
+	
+	<style type="text/css">
+		svg {font-size: 62.5%;}
+		.st3{fill:#FFFFFF;}
+		.st8{fill:#F6A8A5;}
+		.st9{fill:#363664;}
+		.st10{font-family:'Cabin'; font-weight: 600}
+		.st11{font-size:3.6rem;}
+		.st12{font-family:'Cabin'; font-weight: 600}
+		.st13{font-size:4.2rem;}
+		.st14{font-family:'Cabin'; font-weight: 500}
+		.st15{font-size:3.2rem;}
+	</style>
+
+	<g id="pst-2">
+		<rect y="0" class="st8" width="680.3" height="269.3"/>
+		<text transform="matrix(1 0 0 1 56.6934 83.6926)"><tspan x="0" y="0" class="st9 st10 st11">Ramener le rapport du jeu Beyond </tspan><tspan x="0" y="57.6" class="st9 st10 st11">Two Souls pour le rendez-vous avec </tspan><tspan x="0" y="115.2" class="st9 st10 st11">le boss tout à l’heure !</tspan></text>
+		<rect y="269.3" class="st3" width="680.3" height="212.6"/>
+		<text transform="matrix(1 0 0 1 56.6931 357.4845)"><tspan x="0" y="0" class="st9 st12 st13">Rapport de BTS</tspan><tspan x="0" y="58.4" class="st9 st14 st15">01-06-2015 10:08</tspan></text>
+	</g>
+
+</svg>

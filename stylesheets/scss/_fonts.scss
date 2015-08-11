@@ -1,0 +1,71 @@
+/*
+Preprocessed stylesheet SCSS
+FONTS
+sSpace 2015
+
+@inVolt
+*/
+
+
+@import "compass/css3";
+
+@mixin fontFace($font-family, $file-path, $font-weight, $font-style) {
+	@font-face {
+		font-family: $font-family;
+		src: url('#{$file-path}.eot');
+		src: url('#{$file-path}.eot#?iefix') format('embedded-opentype'),
+			 url('#{$file-path}.woff') format('woff'),
+			 url('#{$file-path}.ttf') format('truetype'),
+			 url('#{$file-path}.svg##{$font-family}') format('svg');
+		font-weight: $font-weight;
+		font-style: $font-style;
+	}
+
+	@media screen and (-webkit-min-device-pixel-ratio: 0) {
+		@font-face {
+			font-family: $font-family;
+			src: url('#{$file-path}.svg##{$font-family}') format('svg');
+		}
+	}
+}
+
+
+/* Cabin */
+@include fontFace("Cabin", '../../fonts/cabin/cabin_regular', 400, normal);
+@include fontFace("Cabin", '../../fonts/cabin/cabin_medium', 500, normal);
+@include fontFace("Cabin", '../../fonts/cabin/cabin_semibold', 600, normal);
+@include fontFace("Cabin", '../../fonts/cabin/cabin_bold', 700, normal);
+
+@mixin CabinRegular {
+	font-family: "Cabin", Arial, Helvetica, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+@mixin CabinMedium {
+	font-family: "Cabin", Arial, Helvetica, sans-serif;
+	font-weight: 500;
+	font-style: normal;
+}
+
+@mixin CabinSemiBold {
+	font-family: "Cabin", Arial, Helvetica, sans-serif;
+	font-weight: 600;
+	font-style: normal;
+}
+
+@mixin CabinBold {
+	font-family: "Cabin", Arial, Helvetica, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+}
+
+
+/* ssicons */
+@include fontFace("ssicons", '../../fonts/ssicons/ssicons', normal, normal);
+
+@mixin ssicons {
+	font-family: "ssicons", monotype;
+	font-weight: normal;
+	font-style: normal;
+}

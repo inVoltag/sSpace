@@ -1,0 +1,47 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1162.2px" height="1332.3px" viewBox="0 0 1162.2 1332.3" style="enable-background:new 0 0 1162.2 1332.3;" xml:space="preserve">
+
+	<defs>
+		<style type="text/css">@import url('../../stylesheets/css/sspace.css')</style>
+	</defs>
+
+	<style type="text/css">
+		svg{font-size: 62.5%;}
+		.st3{fill:#FFFFFF;}
+		.st20{fill:#363664;}
+		.st21{font-family:'Cabin'; font-weight: 700;}
+		.st22{font-size:4.8rem;}
+		.st23{fill:#FFFFFF;stroke:#727293;stroke-width:4;stroke-miterlimit:10;}
+		.st24{fill:#727293;}
+		.st25{font-family:'Cabin'; font-weight: 600;}
+		.st26{font-size:2.8rem;}
+		.st27{fill:#F4D893;}
+		.st28{font-family:'Cabin'; font-weight: 600;}
+		.st29{font-size:3.6rem;}
+		.st30{font-family:'Cabin'; font-weight: 600;}
+		.st31{font-size:4.2rem;}
+	</style>
+
+	<g id="wrap">
+		<path class="st3" d="M1146.2,16v1299.3H16V16H1146.2 M1162.2,0H0v1331.3h1162.2V0L1162.2,0z"/>
+		<rect x="0" y="1190.6" class="st3" width="1162.2" height="141.7"/>
+		<text transform="matrix(1 0 0 1 60 1278.5509)" class="st20 st21 st22">vrSchedule</text>
+		<g id="timeline">
+			<path class="st23" d="M1105.5,56.7H56.7 M56.7,198.4h1048.8 M56.7,340.2h1048.8 M1105.5,481.9H56.7 M56.7,623.6h1048.8M1105.5,765.4H56.7 M56.7,907.1h1048.8 M1105.5,1048.8H56.7"/>
+			<text transform="matrix(1 0 0 1 1029.7729 95.0447)" class="st24 st25 st26">13h30</text>
+			<text transform="matrix(1 0 0 1 1073.2847 236.777)" class="st24 st25 st26">8h</text>
+			<text transform="matrix(1 0 0 1 1037.9771 378.5093)" class="st24 st25 st26">8h30</text>
+			<text transform="matrix(1 0 0 1 1074.3765 520.2418)" class="st24 st25 st26">9h</text>
+			<text transform="matrix(1 0 0 1 1039.0688 661.9739)" class="st24 st25 st26">9h30</text>
+			<text transform="matrix(1 0 0 1 1066.3403 803.7064)" class="st24 st25 st26">17h</text>
+			<text transform="matrix(1 0 0 1 1031.0327 945.4385)" class="st24 st25 st26">17h30</text>
+			<text transform="matrix(1 0 0 1 1063.3447 1087.1709)" class="st24 st25 st26">18h</text>
+		</g>
+		<g id="event">
+			<rect x="56.7" y="198.4" class="st27" width="1048.8" height="411"/>
+			<text transform="matrix(1 0 0 1 113.3862 282.1178)"><tspan x="0" y="0" class="st20 st28 st29">Réunion avec l’éditeur</tspan><tspan x="0" y="87.6" class="st20 st25 st29">Discussion autour de la promotion du jeu et de sa diffusion. </tspan><tspan x="0" y="145.2" class="st20 st25 st29">en salle 5, 5e</tspan></text>
+			<rect x="56.7" y="609.4" class="st3" width="1048.8" height="155.9"/>
+			<text transform="matrix(0.9487 0 0 1 113.3862 697.6421)" class="st20 st30 st31">14:00 à 17:00</text>
+		</g>
+	</g>
+
+</svg>

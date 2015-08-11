@@ -1,0 +1,55 @@
+<svg version="1.1" id="load" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="2250px" height="1600px" viewBox="0 0 2250 1600" xml:space="preserve">
+
+	<style type="text/css">
+		.st0{clip-path:url(#mask_1_);}
+		.st1{fill:none;stroke:#474775;stroke-miterlimit:10;}
+	</style>
+
+	<g>
+		<defs>
+			<rect id="mask" width="2250" height="1600"/>
+		</defs>
+		<clipPath id="mask_1_">
+			<use xlink:href="#mask"  style="overflow:visible;"/>
+		</clipPath>
+
+		<g id="shapes" class="st0" transform="translate">
+
+			<line class="st1" x1="0" y1="0" x2="-429.6" y2="1603.4"/>
+			<line class="st1" x1="127.6" y1="0" x2="-302" y2="1603.4"/>
+			<line class="st1" x1="255.2" y1="0" x2="-174.4" y2="1603.4"/>
+			<line class="st1" x1="382.8" y1="0" x2="-46.8" y2="1603.4"/>
+			<line class="st1" x1="510.4" y1="0" x2="80.8" y2="1603.4"/>
+			<line class="st1" x1="638" y1="0" x2="208.4" y2="1603.4"/>
+			<line class="st1" x1="765.6" y1="0" x2="336" y2="1603.4"/>
+			<line class="st1" x1="893.2" y1="0" x2="463.6" y2="1603.4"/>
+			<line class="st1" x1="1020.8" y1="0" x2="591.2" y2="1603.4"/>
+			<line class="st1" x1="1148.4" y1="0" x2="718.8" y2="1603.4"/>
+			<line class="st1" x1="1276" y1="0" x2="846.4" y2="1603.4"/>
+			<line class="st1" x1="1403.6" y1="0" x2="974" y2="1603.4"/>
+			<line class="st1" x1="1531.2" y1="0" x2="1101.6" y2="1603.4"/>
+			<line class="st1" x1="1658.8" y1="0" x2="1229.2" y2="1603.4"/>
+			<line class="st1" x1="1786.4" y1="0" x2="1356.8" y2="1603.4"/>
+			<line class="st1" x1="1914" y1="0" x2="1484.4" y2="1603.4"/>
+			<line class="st1" x1="2041.6" y1="0" x2="1612" y2="1603.4"/>
+			<line class="st1" x1="2169.2" y1="0" x2="1739.6" y2="1603.4"/>
+			<line class="st1" x1="2296.8" y1="0" x2="1867.2" y2="1603.4"/>
+			<line class="st1" x1="2424.4" y1="0" x2="1994.8" y2="1603.4"/>
+			<line class="st1" x1="2552" y1="0" x2="2122.4" y2="1603.4"/>
+			<line class="st1" x1="2679.6" y1="0" x2="2250" y2="1603.4"/>
+
+			<animateTransform
+				attributeName="transform"
+				type="translate"
+				begin="0"
+				dur="1s"
+				from="0 0"
+				to="127 0"
+				repeatCount="indefinite"
+			/>
+
+		</g>
+
+	</g>
+
+</svg>

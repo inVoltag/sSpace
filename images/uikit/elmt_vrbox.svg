@@ -1,0 +1,26 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="467.7px" height="453.5px" viewBox="0 0 467.7 453.5" xml:space="preserve">
+
+	<defs>
+		<style type="text/css">@import url('../../stylesheets/css/sspace.css')</style>
+	</defs>
+
+	<style type="text/css">
+		svg{font-size: 62.5%;}
+		.st3{fill:#FFFFFF;}
+		.st27{fill:#363664;}
+		.st28{font-family:'Cabin'; font-weight: 600;}
+		.st29{font-size:4.2rem;}
+	</style>
+
+	<g id="vrbox">
+		<path class="st3" d="M459.7,8v281.6H8V8H459.7 M467.7,0H0v297.6h467.7V0L467.7,0z"/>
+		<rect x="0" y="297.6" class="st3" width="467.7" height="155.9"/>
+		<text transform="matrix(1 0 0 1 56.6924 385.83)" class="st27 st28 st29">vrBox</text>
+		<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="163.633" y1="142.0911" x2="304.0833" y2="142.0911">
+			<stop  offset="0" style="stop-color:#CF534D"/>
+			<stop  offset="1" style="stop-color:#8CCBCB"/>
+		</linearGradient>
+		<path style="fill:url(#SVGID_2_);" d="M233.9,233.8l-70.2-40.6v-81.1l5.5-3.2V66.6l14,8.1V58.5l14,8.1V50.4l106.9,61.8v81.1L233.9,233.8z M169.8,189.7l64,37l64-37v-73.9l-27.4-15.8v28l18.2-10.5l3.1,5.4l-57.9,33.5l-13.3-7.7v20.6L180,145.8v-20.6l-10.2-5.9V189.7z M186.2,142.2l28.1,16.3v-20.6l19.5,11.3l2.4-1.4v-31.6l-31.6,18.2l-29.3-50.8v31.8l10.9,6.3V142.2z M242.5,112.5v31.6l7.8-4.5V108L242.5,112.5z M256.5,104.4v31.6l7.8-4.5V99.9L256.5,104.4z M180.7,80.5l26.2,45.4l26.2-15.1L180.7,80.5zM202.6,85.9l36.8,21.2l7.8-4.5l-52.5-30.3L202.6,85.9z M216.7,77.9l36.7,21.2l7.8-4.5l-52.4-30.3L216.7,77.9z M189.4,78.3l2.5,1.4l-2.5-4.3V78.3z M203.4,70.2l2.5,1.5l-2.5-4.4V70.2z"/>
+	</g>
+
+</svg>

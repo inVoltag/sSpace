@@ -1,0 +1,27 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="467.7px" height="453.5px" viewBox="0 0 467.7 453.5" xml:space="preserve">
+
+	<defs>
+		<style type="text/css">@import url('../../stylesheets/css/sspace.css')</style>
+	</defs>
+	
+	<style type="text/css">
+		svg {font-size: 62.5%;}
+		.st3{fill:#FFFFFF;}
+		.st12{fill:#363664;}
+		.st13{font-family:'Cabin'; font-weight: 600;}
+		.st14{font-size:4.2rem;}
+		.st15{fill:url(#pct-aide_2_);}
+	</style>
+
+	<g id="aide">
+		<path class="st3" d="M459.7,8v281.6H8V8H459.7 M467.7,0H0v297.6h467.7V0L467.7,0z"/>
+		<rect x="0" y="297.6" class="st3" width="467.7" height="155.9"/>
+		<text transform="matrix(1 0 0 1 56.6931 385.83)" class="st12 st13 st14">Aide &amp; support</text>
+		<linearGradient id="pct-aide_2_" gradientUnits="userSpaceOnUse" x1="163.633" y1="148.7643" x2="304.084" y2="148.7643">
+			<stop offset="0" style="stop-color:#CF534D"/>
+			<stop offset="1" style="stop-color:#8CCBCB"/>
+		</linearGradient>
+		<path id="pct-aide_1_" class="st15" d="M233.9,229.8l-53.1-30.6l-17.2,15.7V108.2l70.2-40.5l70.2,40.5v81L233.9,229.8z M180,191.6l53.9,31.1l64-37v-73.9l-64-37l-64,37v89L180,191.6z M237,182.1h-6.2v-8.5h6.2V182.1z M237,167.4h-6.2c0-12.6,6.8-17.8,12.2-22c4.6-3.5,8.2-6.3,8.2-12.9c0-5.1-2.3-8.7-6.8-10.9c-7.5-3.6-18.3-2-22,0.9l-3.8-4.9c5.7-4.5,19.1-6.2,28.5-1.6c6.7,3.2,10.3,9.1,10.3,16.5c0,9.6-5.6,14-10.6,17.8C241.5,154.3,237,157.8,237,167.4z"/>
+	</g>
+
+</svg>

@@ -1,0 +1,23 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="311.8px" height="411px" viewBox="0 0 311.8 411" xml:space="preserve">
+
+	<defs>
+		<style type="text/css">@import url('../../stylesheets/css/sspace.css')</style>
+	</defs>
+
+	<style type="text/css">
+		svg{font-size: 62.5%;}
+		.st3{fill:#FFFFFF;}
+		.st27{fill:#363664;}
+		.st28{font-family:'Cabin'; font-weight: 600;}
+		.st29{font-size:4.2rem;}
+		.st30{fill:none;stroke:#FFFFFF;stroke-width:3.5;stroke-miterlimit:10;}
+	</style>
+
+	<g id="close">
+		<path class="st3" d="M303.8,8v281.6H8V8H303.8 M311.8,0H0v297.6h311.8V0L311.8,0z"/>
+		<rect x="0" y="297.6" class="st3" width="311.8" height="113.4"/>
+		<text transform="matrix(1 0 0 1 42.5186 364.1577)" class="st27 st28 st29">Fermer</text>
+		<path class="st30" d="M180.7,161.9l-24.8-14.3l-24.8,14.3 M131.1,133.3l24.8,14.3l24.8-14.3 M155.9,103.3l38.4,22.1v44.3l-38.4,22.1l-38.4-22.1v-44.3L155.9,103.3L155.9,103.3z"/>
+	</g>
+
+</svg>

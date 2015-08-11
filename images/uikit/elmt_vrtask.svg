@@ -1,0 +1,26 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="467.7px" height="453.5px" viewBox="0 0 467.7 453.5" style="enable-background:new 0 0 467.7 453.5;" xml:space="preserve">
+
+	<defs>
+		<style type="text/css">@import url('../../stylesheets/css/sspace.css')</style>
+	</defs>
+
+	<style type="text/css">
+		svg{font-size: 62.5%;}
+		.st3{fill:#FFFFFF;}
+		.st27{fill:#363664;}
+		.st28{font-family:'Cabin'; font-weight: 600;}
+		.st29{font-size:4.2rem;}
+	</style>
+
+	<g id="vrtask">
+		<path class="st3" d="M459.7,8v281.6H8V8H459.7 M467.7,0H0v297.6h467.7V0L467.7,0z"/>
+		<rect x="0" y="297.6" class="st3" width="467.7" height="155.9"/>
+		<text transform="matrix(1 0 0 1 56.6927 385.83)" class="st27 st28 st29">vrTask</text>
+		<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="163.633" y1="148.7639" x2="304.0832" y2="148.7639">
+			<stop  offset="0" style="stop-color:#CF534D"/>
+			<stop  offset="1" style="stop-color:#8CCBCB"/>
+		</linearGradient>
+		<path style="fill:url(#SVGID_2_);" d="M233.9,229.8l-70.2-40.5v-81.1l70.2-40.5l70.2,40.5v81.1L233.9,229.8z M237,150.6v70.3l60.9-35.2v-73.9l-64-37L172.9,110l60.9,35.2l54.8-31.7l3.1,5.4L237,150.6z M169.8,185.7l60.9,35.2v-70.3l-60.9-35.2V185.7zM250.5,204.1l-10.2-9.7l4.3-4.5l4.5,4.3l38.1-66.4l5.4,3.1L250.5,204.1z M182.9,181.7l-10.1-11.5l4.7-4.1l6.7,7.7l37.4-21.5l3.1,5.4L182.9,181.7z M278,113.1h-71.7V95.7h6.2v11.2H278V113.1z"/>
+	</g>
+
+</svg>

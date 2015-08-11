@@ -1,0 +1,27 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="680.3px" height="489px" viewBox="0 0 680.3 489" style="enable-background:new 0 0 680.3 489;" xml:space="preserve">
+
+	<defs>
+		<style type="text/css">@import url('../../stylesheets/css/sspace.css')</style>
+	</defs>
+	
+	<style type="text/css">
+		svg {font-size: 62.5%;}
+		.st3{fill:#FFFFFF;}
+		.st8{fill:#F4D893;}
+		.st9{fill:#363664;}
+		.st10{font-family:'Cabin'; font-weight: 600}
+		.st11{font-size:3.6rem;}
+		.st12{font-family:'Cabin'; font-weight: 600}
+		.st13{font-size:4.2rem;}
+		.st14{font-family:'Cabin'; font-weight: 500}
+		.st15{font-size:3.2rem;}
+	</style>
+
+	<g id="pst-1">
+		<rect y="0" class="st8" width="680.3" height="276.4"/>
+		<text transform="matrix(1 0 0 1 56.6938 83.6925)"><tspan x="0" y="0" class="st9 st10 st11">Informer l’équipe de modo quant à la </tspan><tspan x="0" y="57.6" class="st9 st10 st11">livraison du nouveau matériel. De </tspan><tspan x="0" y="115.2" class="st9 st10 st11">préférence cette après-midi.</tspan></text>
+		<rect y="276.4" class="st3" width="680.3" height="212.6"/>
+		<text transform="matrix(1 0 0 1 56.6926 364.5706)"><tspan x="0" y="0" class="st9 st12 st13">Nouveaux ordinateurs</tspan><tspan x="0" y="58.4" class="st9 st14 st15">01-06-2015 10:16</tspan></text>
+	</g>
+
+</svg>

@@ -1,0 +1,17 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="425.2px" height="155.9px" viewBox="0 0 425.2 155.9" xml:space="preserve">
+
+	<defs>
+		<style type="text/css">@import url('../../stylesheets/css/sspace.css')</style>
+	</defs>
+
+	<style type="text/css">
+		svg{font-size: 62.5%;}
+		.st3{fill:#FFFFFF;}
+		.st27{font-family:'Cabin'; font-weight: 700;}
+		.st28{font-size:4.2rem;}
+	</style>
+
+	<path class="st3" d="M417.2,8v139.9H8V8H417.2 M425.2,0H0v155.9h425.2V0L425.2,0z"/>
+	<text transform="matrix(1 0 0 1 133.2197 88.1931)" class="st3 st27 st28">Système</text>
+
+</svg>

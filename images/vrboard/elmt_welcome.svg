@@ -1,0 +1,64 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1587.4px" height="1474px" viewBox="0 0 1587.4 1474" style="enable-background:new 0 0 1587.4 1474;" xml:space="preserve">
+
+	<defs>
+		<style type="text/css">@import url('../../stylesheets/css/sspace.css')</style>
+	</defs>
+
+	<style type="text/css">
+		svg{font-size: 62.5%;}
+		.st2{fill:none;}
+		.st3{fill:#FFFFFF;}
+		.st4{fill:none;stroke:#ffffff;stroke-width:4;stroke-miterlimit:10;}
+		.st5{fill:#CF534D;}
+		.st6{fill:none;stroke:#ffffff;stroke-width:4;stroke-miterlimit:10;}
+		.st7{fill:#363664;}
+		.st8{font-family:'Cabin'; font-weight: 700;}
+		.st9{font-size:4.8rem;}
+		.st10{font-family:'Cabin'; font-weight: 700;}
+		.st11{font-size:3.6rem;}
+		.st12{font-family:'Cabin'; font-weight: 700;}
+		.st13{font-size:4.2rem;}
+		.st14{fill:#A3D5D5;}
+	</style>
+
+	<g id="welcome">
+
+		<path class="st3" d="M1571.4,16v1442H16V16H1571.4 M1587.4,0H0v1474h1587.4V0L1587.4,0z"/>
+		<rect x="0" y="1332.3" class="st3" width="1587.4" height="141.7"/>
+		<text transform="matrix(1 0 0 1 60 1420.2861)" class="st7 st8 st9">Bienvenue dans sSpace Jean-Yves</text>
+		<g id="intro">
+			<path class="st3" d="M789.7,4v927H4V4H789.7 M793.7,0H0v935h793.7V0L793.7,0z"/>
+			<rect x="0" y="297.4" class="st2" width="793.7" height="340.2"/>
+			<text transform="matrix(1 0 0 1 60 324.4149)"><tspan x="0" y="0" class="st3 st10 st11">sSpace prévilégie le travail à court terme, </tspan><tspan x="0" y="57.6" class="st3 st10 st11">comme classer les mails de la journée, </tspan><tspan x="0" y="115.2" class="st3 st10 st11">organiser le planning, gérer les tâches. La </tspan><tspan x="0" y="172.8" class="st3 st10 st11">réalité virtuelle permet de rester concentré </tspan><tspan x="0" y="230.4" class="st3 st10 st11">sur ces travaux simples mais essentiels pour </tspan><tspan x="0" y="288" class="st3 st10 st11">votre efficacité et pour vous.</tspan></text>
+		</g>
+
+		<g id="controles">
+			<path class="st3" d="M1583.4,4v785.7H797.7V4H1583.4 M1587.4,0H793.7v793.7h793.7V0L1587.4,0z"/>
+			<rect x="793.7" y="793.7" class="st3" width="793.7" height="141.7"/>
+			<text transform="matrix(1 0 0 1 853.701 881.2025)" class="st7 st12 st13">Contrôles</text>
+			<path class="st3" d="M1153.4,85c1.8,0,3.6,0.2,5.5,0.6c0,0,1,1.8,1.8,2.2c0.7,0.4,6.3,2.9,7.5,3.9c1.3,1,6.6,2.6,6.6,2.6s6.7,1.4,15.8,1.4c4.6,0,9.7-0.3,15-1.4c0,0,3.6-0.7,7-2.5c3.4-1.8,7.2-3.1,7.5-3.5c0.3-0.4,2.1-2.6,2.1-2.6s2.1-0.6,5.4-0.6c4.5,0,11.2,1.1,17.8,6.3c0,0,0.9,3.3,0.7,3.3c0,0,0,0,0,0c0,0,0,0,0,0c0,0,0,0,0,0c0.3,0.2,4.1,3.1,12.8,37.6c9.1,36,0,49.4-3.2,50.8c-1.1,0.5-3,1.2-5.6,1.2c-4.7,0-12.1-2.3-22.5-12.1c-16.2-15.2-31-12.9-37.3-13.3c-0.9-0.1-2-0.1-3.3-0.1c-7.7,0-21.4,1.6-33.1,12.2c-13.6,12.3-15.8,13-25.9,13.2c-0.1,0-0.1,0-0.2,0c-9.9,0-11.1-16.7-8.7-39c0,0,5.2-32.3,15.5-50.9c0,0,0.5-2.5,0.6-3C1135.5,91,1143.2,85,1153.4,85 M1190.4,122.4c5.2,0,9.4-4.3,9.4-9.5c0-5.2-4.2-9.5-9.4-9.5c0,0,0,0,0,0c-5.2,0-9.4,4.3-9.4,9.5C1181,118.2,1185.2,122.4,1190.4,122.4C1190.4,122.4,1190.4,122.4,1190.4,122.4 M1153.4,79c-6.4,0-11.9,2-15.4,3.6c-7.2,3.5-8,5.9-8.3,6.8c-0.1,0.2-0.2,0.7-0.7,2.8c-10.5,19.3-15.5,50.7-15.8,52l0,0.2l0,0.2c-2.4,22.2-0.9,34.9,4.8,41.2c2.6,2.9,6,4.4,9.9,4.4c0.1,0,0.2,0,0.3,0c12-0.2,15.6-2,29.8-14.8c9.8-8.8,21.2-10.6,29.1-10.6c1,0,1.9,0,2.9,0.1c1,0.1,2.2,0.1,3.4,0.1c7.1,0,17.9,0,30.2,11.6c9.7,9.1,18.6,13.7,26.6,13.7c3.7,0,6.3-1,8-1.7c7.7-3.4,15.8-21.5,6.6-57.8c-6.5-25.7-10.5-35-12.9-38.7c-0.2-0.7-0.4-1.5-0.6-2.3l-0.5-1.9l-1.5-1.2c-8-6.3-16.1-7.6-21.5-7.6c-4,0-6.6,0.7-7.1,0.8l-1.8,0.5l-1.2,1.4c-0.3,0.3-0.9,1.1-1.4,1.7c-0.3,0.1-0.6,0.3-0.9,0.4c-1.5,0.6-3.5,1.5-5.4,2.5c-2.5,1.3-5.3,1.9-5.3,1.9c-4.3,0.8-9,1.3-13.9,1.3c-7.5,0-13.2-1-14.4-1.2c-1.8-0.6-3.9-1.3-4.6-1.7c-1.2-0.8-3.2-1.9-7.4-3.9c0-0.1-0.1-0.1-0.1-0.2l-1.3-2.3l-2.6-0.6C1158,79.3,1155.7,79,1153.4,79L1153.4,79z M1190.4,116.4c-1.9,0-3.4-1.6-3.4-3.5c0-1.9,1.5-3.5,3.4-3.5c0.9,0,1.7,0.4,2.4,1c0.7,0.7,1,1.6,1,2.5C1193.8,114.9,1192.3,116.4,1190.4,116.4L1190.4,116.4L1190.4,116.4z"/>
+			<path class="st3" d="M1324.6,457.1h-268V562h268V457.1L1324.6,457.1z M1291,491v-23.4h23.4V491H1291L1291,491z M1258.9,491v-23.4h23.4V491H1258.9L1258.9,491z M1226.9,491v-23.4h23.4V491H1226.9L1226.9,491z M1194.8,491v-23.4h23.4V491H1194.8L1194.8,491z M1162.8,491v-23.4h23.4V491H1162.8L1162.8,491z M1130.7,491v-23.4h23.4V491H1130.7L1130.7,491z M1098.7,491v-23.4h23.4V491H1098.7L1098.7,491z M1066.6,491v-23.4h23.4V491H1066.6L1066.6,491z M1291,523.1v-23.4h23.4v23.4H1291L1291,523.1zM1258.9,523.1v-23.4h23.4v23.4H1258.9L1258.9,523.1z M1226.9,523.1v-23.4h23.4v23.4H1226.9L1226.9,523.1z M1194.8,523.1v-23.4h23.4v23.4H1194.8L1194.8,523.1z M1162.8,523.1v-23.4h23.4v23.4H1162.8L1162.8,523.1z M1130.7,523.1v-23.4h23.4v23.4H1130.7L1130.7,523.1z M1098.7,523.1v-23.4h23.4v23.4H1098.7L1098.7,523.1z M1066.6,523.1v-23.4h23.4v23.4H1066.6L1066.6,523.1zM1258.9,551.6v-20.4h55.7v20.4H1258.9L1258.9,551.6z M1130.8,551.6v-20.4h119.7v20.4H1130.8L1130.8,551.6z M1066.6,551.6v-20.4h55.7v20.4H1066.6L1066.6,551.6z"/>
+			<rect x="793.7" y="240.9" class="st2" width="793.7" height="138.1"/>
+			<text transform="matrix(1 0 0 1 947.7896 294.9468)"><tspan x="0" y="0" class="st3 st10 st11">sSpace est contrôlable avec une </tspan><tspan x="74.6" y="57.6" class="st3 st10 st11">manette de Xbox 360.</tspan></text>
+			<rect x="793.7" y="618.7" class="st2" width="793.7" height="90"/>
+			<text transform="matrix(1 0 0 1 900.5582 672.6649)" class="st3 st10 st11">sSpace est contrôlable avec un clavier.</text>
+		</g>
+
+		<g id="navigation">
+			<path class="st3" d="M1583.4,939.4v388.9H4V939.4H1583.4 M1587.4,935.4H0v396.9h1587.4V935.4L1587.4,935.4z"/>
+			<g id="app">
+				<rect x="170.1" y="1077.2" class="st2" width="566.9" height="113.4"/>
+				<text transform="matrix(1 0 0 1 230.0791 1146.1676)" class="st3 st12 st11">Applications</text>
+				<rect id="wrap_7_" x="56.7" y="1077.2" class="st5" width="113.4" height="113.4"/>
+				<polygon class="st4" points="127.8,1109 142.2,1117.3 113.4,1133.9 142.2,1150.5 127.8,1158.7 84.6,1133.9 127.8,1109 "/>
+			</g>
+			<g id="post_x5F_sys">
+				<rect x="850.4" y="1077.2" class="st2" width="566.9" height="113.4"/>
+				<text transform="matrix(1 0 0 1 1069.7959 1144.1676)" class="st3 st12 st11">Post-it et Système</text>
+				<rect id="wrap_6_" x="1417.3" y="1077.2" class="st5" width="113.4" height="113.4"/>
+				<polygon class="st4" points="1459.6,1158.8 1445.2,1150.5 1474,1133.9 1445.2,1117.3 1459.6,1109 1502.8,1133.9 1459.6,1158.8"/>
+			</g>
+		</g>
+	</g>
+
+</svg>

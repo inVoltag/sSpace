@@ -1,0 +1,21 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1162.2px" height="1474px" viewBox="0 0 1162.2 1474" style="enable-background:new 0 0 1162.2 1474;" xml:space="preserve">
+
+	<defs>
+		<style type="text/css">@import url('../../stylesheets/css/sspace.css')</style>
+	</defs>
+	
+	<style type="text/css">
+		svg {font-size: 62.5%;}
+		.st3{fill:#FFFFFF;}
+		.st9{fill:#363664;}
+		.st10{font-family:'Cabin'; font-weight: 600;}
+		.st11{font-size:4.8rem;}
+	</style>
+
+	<g id="wrap_22_">
+		<path class="st3" d="M1146.2,16v1442H16V16H1146.2 M1162.2,0H0v1474h1162.2V0L1162.2,0z"/>
+		<rect x="0" y="1332.3" class="st3" width="1162.2" height="141.7"/>
+		<text transform="matrix(1 0 0 1 59.9998 1420.2831)" class="st9 st10 st11">Mon système</text>
+	</g>
+
+</svg>

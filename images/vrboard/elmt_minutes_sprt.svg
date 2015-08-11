@@ -1,0 +1,82 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="13606.5px" height="226.8px" viewBox="0 0 13606.5 226.8" style="enable-background:new 0 0 13606.5 226.8;" xml:space="preserve">
+
+	<defs>
+		<style type="text/css">@import url('../../stylesheets/css/sspace.css')</style>
+	</defs>
+
+	<style type="text/css">
+		svg{font-size:62.5%;}
+		.st2{fill:#FFFFFF;}
+		.st25{font-family:'Cabin'; font-weight: 700}
+		.st26{font-size:14.2rem;}
+		.st27{fill:#F7E2E1;}
+		.st28{fill:#EFC6C4;}
+		.st29{fill:#E7A9A6;}
+		.st30{fill:#DF8C88;}
+		.st31{fill:#CF534D;}
+	</style>
+
+	<g id="minutes">
+		<text transform="matrix(1 0 0 1 0.25 163.3464)" class="st2 st25 st26">00’</text>
+		<text transform="matrix(1 0 0 1 250.8613 163.3464)" class="st2 st25 st26">01’</text>
+		<text transform="matrix(1 0 0 1 466.3135 163.3464)" class="st2 st25 st26">02’</text>
+		<text transform="matrix(1 0 0 1 692.3789 163.3464)" class="st2 st25 st26">03’</text>
+		<text transform="matrix(1 0 0 1 916.1787 163.3464)" class="st2 st25 st26">04’</text>
+		<text transform="matrix(1 0 0 1 1146.0635 163.3464)" class="st2 st25 st26">05’</text>
+		<text transform="matrix(1 0 0 1 1371.0654 163.3464)" class="st2 st25 st26">06’</text>
+		<text transform="matrix(1 0 0 1 1601.5156 163.3464)" class="st2 st25 st26">07’</text>
+		<text transform="matrix(1 0 0 1 1821.7793 163.3464)" class="st2 st25 st26">08’</text>
+		<text transform="matrix(1 0 0 1 2051.2393 163.3464)" class="st2 st25 st26">09’</text>
+		<text transform="matrix(1 0 0 1 2291.8076 163.3462)" class="st27 st25 st26">10’</text>
+		<text transform="matrix(1 0 0 1 2542.418 163.3462)" class="st27 st25 st26">11’</text>
+		<text transform="matrix(1 0 0 1 2757.8716 163.3462)" class="st27 st25 st26">12’</text>
+		<text transform="matrix(1 0 0 1 2983.937 163.3462)" class="st27 st25 st26">13’</text>
+		<text transform="matrix(1 0 0 1 3207.7368 163.3462)" class="st27 st25 st26">14’</text>
+		<text transform="matrix(1 0 0 1 3437.6201 163.3462)" class="st27 st25 st26">15’</text>
+		<text transform="matrix(1 0 0 1 3662.6235 163.3462)" class="st27 st25 st26">16’</text>
+		<text transform="matrix(1 0 0 1 3893.0737 163.3462)" class="st27 st25 st26">17’</text>
+		<text transform="matrix(1 0 0 1 4113.3374 163.3462)" class="st27 st25 st26">18’</text>
+		<text transform="matrix(1 0 0 1 4342.7969 163.3462)" class="st27 st25 st26">19’</text>
+		<text transform="matrix(1 0 0 1 4548.2056 163.3459)" class="st28 st25 st26">20’</text>
+		<text transform="matrix(1 0 0 1 4798.8169 163.3459)" class="st28 st25 st26">21’</text>
+		<text transform="matrix(1 0 0 1 5014.269 163.3459)" class="st28 st25 st26">22’</text>
+		<text transform="matrix(1 0 0 1 5240.3345 163.3459)" class="st28 st25 st26">23’</text>
+		<text transform="matrix(1 0 0 1 5464.1343 163.3459)" class="st28 st25 st26">24’</text>
+		<text transform="matrix(1 0 0 1 5694.0186 163.3459)" class="st28 st25 st26">25’</text>
+		<text transform="matrix(1 0 0 1 5919.021 163.3459)" class="st28 st25 st26">26’</text>
+		<text transform="matrix(1 0 0 1 6149.4712 163.3459)" class="st28 st25 st26">27’</text>
+		<text transform="matrix(1 0 0 1 6369.7349 163.3459)" class="st28 st25 st26">28’</text>
+		<text transform="matrix(1 0 0 1 6599.1943 163.3459)" class="st28 st25 st26">29’</text>
+		<text transform="matrix(1 0 0 1 6815.2158 163.3462)" class="st29 st25 st26">30’</text>
+		<text transform="matrix(1 0 0 1 7065.8271 163.3462)" class="st29 st25 st26">31’</text>
+		<text transform="matrix(1 0 0 1 7281.2793 163.3462)" class="st29 st25 st26">32’</text>
+		<text transform="matrix(1 0 0 1 7507.3447 163.3462)" class="st29 st25 st26">33’</text>
+		<text transform="matrix(1 0 0 1 7731.1445 163.3462)" class="st29 st25 st26">34’</text>
+		<text transform="matrix(1 0 0 1 7961.0283 163.3462)" class="st29 st25 st26">35’</text>
+		<text transform="matrix(1 0 0 1 8186.0313 163.3462)" class="st29 st25 st26">36’</text>
+		<text transform="matrix(1 0 0 1 8416.4814 163.3462)" class="st29 st25 st26">37’</text>
+		<text transform="matrix(1 0 0 1 8636.7451 163.3462)" class="st29 st25 st26">38’</text>
+		<text transform="matrix(1 0 0 1 8866.2041 163.3462)" class="st29 st25 st26">39’</text>
+		<text transform="matrix(1 0 0 1 9079.9609 163.3459)" class="st30 st25 st26">40’</text>
+		<text transform="matrix(1 0 0 1 9330.5723 163.3459)" class="st30 st25 st26">41’</text>
+		<text transform="matrix(1 0 0 1 9546.0244 163.3459)" class="st30 st25 st26">42’</text>
+		<text transform="matrix(1 0 0 1 9772.0898 163.3459)" class="st30 st25 st26">43’</text>
+		<text transform="matrix(1 0 0 1 9995.8896 163.3459)" class="st30 st25 st26">44’</text>
+		<text transform="matrix(1 0 0 1 10225.7744 163.3459)" class="st30 st25 st26">45’</text>
+		<text transform="matrix(1 0 0 1 10450.7764 163.3459)" class="st30 st25 st26">46’</text>
+		<text transform="matrix(1 0 0 1 10681.2266 163.3459)" class="st30 st25 st26">47’</text>
+		<text transform="matrix(1 0 0 1 10901.4902 163.3459)" class="st30 st25 st26">48’</text>
+		<text transform="matrix(1 0 0 1 11130.9502 163.3459)" class="st30 st25 st26">49’</text>
+		<text transform="matrix(1 0 0 1 11350.791 163.3459)" class="st31 st25 st26">50’</text>
+		<text transform="matrix(1 0 0 1 11601.4014 163.3459)" class="st31 st25 st26">51’</text>
+		<text transform="matrix(1 0 0 1 11816.8545 163.3459)" class="st31 st25 st26">52’</text>
+		<text transform="matrix(1 0 0 1 12042.9199 163.3459)" class="st31 st25 st26">53’</text>
+		<text transform="matrix(1 0 0 1 12266.7197 163.3459)" class="st31 st25 st26">54’</text>
+		<text transform="matrix(1 0 0 1 12496.6035 163.3459)" class="st31 st25 st26">55’</text>
+		<text transform="matrix(1 0 0 1 12721.6064 163.3459)" class="st31 st25 st26">56’</text>
+		<text transform="matrix(1 0 0 1 12952.0566 163.3459)" class="st31 st25 st26">57’</text>
+		<text transform="matrix(1 0 0 1 13172.3203 163.3459)" class="st31 st25 st26">58’</text>
+		<text transform="matrix(1 0 0 1 13401.7803 163.3459)" class="st31 st25 st26">59’</text>
+	</g>
+
+</svg>
