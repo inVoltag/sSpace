@@ -59,7 +59,7 @@ STOP = function() {
 			cursor.enable();
 		});
 
-		setRenderMode(VRClient.renderModes.vr);
+		setRenderMode(VRClient.renderModes.mono);
 
 		effect.setSize( window.innerWidth, window.innerHeight );
 
@@ -70,10 +70,11 @@ STOP = function() {
 			if (mode == modes.mono) {
 				camera.position.z = 0.0001;
 				controls = new THREE.OrbitControls( camera );
+				effect = new THREE.VREffect( renderer );
 				controls.noZoom = true;
 				effect = renderer;
 				cursor.setMode('mono');
-				cursor.hide();
+				cursor.show();
 
 			} else if (mode == modes.stereo) {
 				controls = new THREE.DeviceOrientationControls( camera );
