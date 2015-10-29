@@ -155,7 +155,7 @@ function init() {
 		cursor.enable();
 	});
 
-	setRenderMode(VRClient.renderModes.mono);
+	setRenderMode(VRClient.renderModes.vr);
 
 	effect.setSize( window.innerWidth, window.innerHeight );
 
