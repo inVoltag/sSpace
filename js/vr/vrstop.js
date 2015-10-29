@@ -70,11 +70,10 @@ STOP = function() {
 			if (mode == modes.mono) {
 				camera.position.z = 0.0001;
 				controls = new THREE.OrbitControls( camera );
-				effect = new THREE.VREffect( renderer );
 				controls.noZoom = true;
 				effect = renderer;
 				cursor.setMode('mono');
-				cursor.show();
+				cursor.hide();
 
 			} else if (mode == modes.stereo) {
 				controls = new THREE.DeviceOrientationControls( camera );
